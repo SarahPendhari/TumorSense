@@ -3,6 +3,10 @@
 ## Overview
 TumorSense is a machine learning project aimed at automating brain tumor detection from medical images using Support Vector Machines (SVM) and Logistic Regression (LR). Leveraging image classification techniques, the project determines whether an input image contains a brain tumor or not. This solution holds potential to assist medical professionals in swift and accurate preliminary diagnosis.
 
+## Authors
+- Sarah Pendhari
+- Karan Pashte
+
 ## SVM and LR
 - **Support Vector Machines (SVM)**: SVM is a powerful supervised learning algorithm used for classification and regression tasks. In TumorSense, SVM is utilized to create a decision boundary that maximizes the separation between tumor and non-tumor image data, enabling accurate classification.
 
@@ -25,7 +29,7 @@ The project repository is organized as follows:
 
 ## Usage
 To run the project:
-1. Clone the repository: `git clone https://github.com/yourusername/TumorSense.git`
+1. Clone the repository: `git clone https://github.com/SarahPendhari/TumorSense.git`
 2. Install required dependencies: `pip install -r requirements.txt`
 3. Run the Jupyter notebooks in `notebooks/` for SVM and LR training and classification.
 4. Navigate to the `webapp/` directory and launch the user interface.
