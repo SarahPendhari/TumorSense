@@ -21,9 +21,8 @@ TumorSense is a machine learning project aimed at automating brain tumor detecti
 ## Project Structure
 The project repository is organized as follows:
 
-- `data/`: Contains the dataset used for training and testing.
-- `notebooks/`: Jupyter notebooks detailing the SVM and LR training and image classification process.
-- `src/`: Python scripts for image preprocessing, SVM and LR model creation, and classification.
+- `Dataset/`: Contains the dataset used for training and testing.
+- `TumorSense.ipynb`: A Jupyter notebooks detailing the SVM and LR training and image classification process.
 - `webapp/`: Front-end code for the user interface to upload and analyze images.
 - `docs/`: Documentation files providing insights into the project and its components.
 
