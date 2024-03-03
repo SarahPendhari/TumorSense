@@ -1,26 +1,49 @@
 # TumorSense: Brain Tumor Detection Project
 
 ## Overview
-TumorSense is a machine learning project aimed at automating brain tumor detection from medical images using Support Vector Machines (SVM) and Logistic Regression (LR). Leveraging image classification techniques, the project determines whether an input image contains a brain tumor or not. This solution holds potential to assist medical professionals in swift and accurate preliminary diagnosis.
+TumorSense is a machine learning project aimed at automating brain tumor detection from medical images using Machine Learning and Deep Learning techniques. Leveraging image classification techniques, the project determines whether an input image contains a brain tumor or not. This solution holds potential to assist medical professionals in swift and accurate preliminary diagnosis.
 
-## Authors
+The repo contains 2 colab files, wherein:
+1. Compares and contrasts SVM and LR (for my MPR)
+2. Used ML and DL for comparison purposes.(This notebook is exhaustive and is created for a comparative study)
+
+## Author
 - Sarah Pendhari
 
-## SVM 
-- **Support Vector Machines (SVM)**: SVM is a powerful supervised learning algorithm used for classification and regression tasks. In TumorSense, SVM is utilized to create a decision boundary that maximizes the separation between tumor and non-tumor image data, enabling accurate classification.
+# Brain Tumor Detection Models Overview
 
+## Introduction
+Brain tumors pose significant health challenges, requiring accurate detection methods for timely intervention. This document outlines the models utilized for brain tumor detection and their significance.
 
-## Features
-- Utilizes SVM and LR for binary classification.
-- Processes medical images to extract relevant features.
-- Provides a user-friendly interface for uploading and analyzing images.
-- Generates classification results with confidence scores.
+## Models Used
+1. **VGG-16 Algorithm**:
+   - **Description**: VGG-16 is a Convolutional Neural Network (CNN) model comprising 16 layers, initially trained on the ImageNet dataset.
+   - **Significance**: It has demonstrated effectiveness in various computer vision tasks, including image classification and object recognition. In the context of brain tumor detection, VGG-16's ability to identify intricate features within images facilitates precise categorization.
+   - **Application**: Trained on a dataset containing brain tumor images, VGG-16 enhances its capability to accurately classify such images, thereby improving detection accuracy.
 
-## Project Structure
-The project repository is organized as follows:
+2. **VGG-19 Algorithm**:
+   - **Description**: VGG-19 is an extension of VGG-16, featuring 19 layers. It retains the architecture principles of its predecessor while adding more layers.
+   - **Significance**: VGG-19 offers a deeper architecture compared to VGG-16, potentially capturing more complex features in brain tumor images.
+   - **Application**: Similar to VGG-16, VGG-19 is trained on brain tumor image datasets to assess its effectiveness in detection and classification tasks.
 
-- `Dataset/`: Contains the dataset used for training and testing.
-- `TumorSense.ipynb`: A Jupyter notebooks detailing the SVM and LR training and image classification process.
+3. **InceptionV3**:
+   - **Description**: InceptionV3 is a CNN model, notable for its inception modules, allowing for efficient use of computational resources.
+   - **Significance**: It has been widely utilized in various image-related tasks due to its efficient architecture. In the context of brain tumor detection, InceptionV3's performance is evaluated to determine its suitability compared to other models.
+   - **Application**: InceptionV3 is included in the study to compare its performance with VGG-16, VGG-19, and other models, contributing to the development of an optimal brain tumor detection model.
+
+4. **ResNet50**:
+   - **Description**: ResNet50 is a CNN model characterized by residual connections, enabling the training of very deep networks.
+   - **Significance**: ResNet50 addresses the vanishing gradient problem in deep neural networks, allowing for the successful training of deeper architectures.
+   - **Application**: ResNet50's performance is evaluated alongside other models to assess its effectiveness in brain tumor detection tasks.
+
+5. **MobileNet**:
+   - **Description**: MobileNet is a lightweight CNN model designed for mobile and embedded vision applications, characterized by its efficient architecture.
+   - **Significance**: MobileNet offers a balance between model size and accuracy, making it suitable for resource-constrained environments.
+   - **Application**: MobileNet's performance is assessed in the context of brain tumor detection, evaluating its effectiveness compared to more complex models like VGG-16, VGG-19, InceptionV3, and ResNet50.
+
+## Conclusion
+The selection of appropriate models is crucial for enhancing the accuracy and effectiveness of brain tumor detection algorithms. By comparing VGG-16, VGG-19, InceptionV3, ResNet50, and MobileNet, this study aims to contribute to the development of efficient models for identifying brain tumors, ultimately improving patient outcomes.
+
 
 ## Usage
 To run the project:
