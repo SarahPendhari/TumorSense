@@ -44,6 +44,8 @@ Brain tumors pose significant health challenges, requiring accurate detection me
 ## Conclusion
 The selection of appropriate models is crucial for enhancing the accuracy and effectiveness of brain tumor detection algorithms. By comparing VGG-16, VGG-19, InceptionV3, ResNet50, and MobileNet, this study aims to contribute to the development of efficient models for identifying brain tumors, ultimately improving patient outcomes.
 
+VGG-16 proves to be the best algorithm for this task.
+
 
 ## Usage
 To run the project:
